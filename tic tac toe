@@ -1,23 +1,4 @@
-#include<stdio.h>
-#include<string.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#ifdef _WIN32
-    #define OS "nt"
-#elif _unix_
-    #define OS "posix"
-#endif Y
-#define TRUE 1
-#define FALSE 0
 
-void board(char x, char o, unsigned char *u1, unsigned char *u2, char *a); // 2D Graphics on CLI
-void rules(); // Prints rule page on CLI
-int checkforwin(char *a); // Checks wether a player won
-bool decision(char *x, char *o, unsigned char *u1); // points player to mark X or mark 0
-int main()
-{
-    FILE *p;
-    char x,o;
     p=fopen("score.txt","a+");
     fclose(p);
     char a[9]={'1','2','3','4','5','6','7','8','9'};
