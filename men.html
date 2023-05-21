@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-size: cover;
+           background-repeat: no-repeat;
+        }
+        #one
+        {
+            text-align: center;
+            font-size: 1cm;
+            background-color:rgb(175, 93, 61);
+        }
+        .container
+        {
+           height: auto; 
+           width: auto;
+           display: flex;
+          
+        }
+        .container div{
+            
+            height: 300px;
+            width: 350px;
+            margin: 50px;
+            padding: 4px;;
+            display: flex;
+            font-size: small;
+        }
+        
+        
+        .zoom {
+    padding:0;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    }
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
+}  
+img
+{
+    border: 1px solid black;
+    border-radius: 10px;
+}   
+h1
+{
+    color: whitesmoke;
+}
+.slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .slideshow-image {
+      width: 100%;
+      height: auto;
+    }
+</style>
+</head>
+<body style="background-image: url(menbg.jpeg);
+    <script src="jquery-3.7.0.min.js">
+    </script>
+    <script>
+        $('img').click(function(){
+            $('img').animate({height:"400px"})
+        })
+    </script>
+    <div id="one">
+        <h> Welcome to MEN'S Grooming</h>
+    </div><br><br>
+    <div class="container">
+        <h1> Facewash</h1>
+        <div><img src="https://tse1.mm.bing.net/th?id=OIP.mEBrxEMLx6MIoIbVNecUggHaEK&pid=Api&P=0&h=180" class="zoom"> </div> 
+        <div> <img src="https://abclive1.s3.amazonaws.com/5d237ad2-e50e-4f65-88ad-2e80b811c868/productimage/8282___XL.jpg" class="zoom"></div>
+        <div> <img src="https://www.maralgel.net.cn/uploads/allimg/200703/maralgel07.jpg"  class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> Hair Gel</h1>
+        <div><img src="https://images-na.ssl-images-amazon.com/images/I/919PNr7d-fL._SX679_.jpg"  class="zoom"> </div> 
+        <div> <img src="https://spy.com/wp-content/uploads/2019/03/81h-v68fil._sl1500_.jpg?resize=480"  class="zoom"></div>
+        <div> <img src="https://i.pinimg.com/originals/68/04/45/680445ee5543c8db3a091807182bf79f.jpg"  class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> Beard oil</h1>
+        <div><img src="https://th.bing.com/th/id/OIP.nzGZ-zOC_bWunb0ZHDcaJAHaHa?pid=ImgDet&rs=1"  class="zoom"> </div> 
+        <div> <img src="https://n2.sdlcdn.com/imgs/g/g/v/Beardo-Growth-Beard-Oil-50-SDL109587716-1-ff9dc.jpg" class="zoom"></div>
+        <div> <img src="https://cdn.shopify.com/s/files/1/0657/6167/products/IMG_7965_1024x1024.jpg?v=1484932346" class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> Face Cream</h1>
+        <div><img src="https://th.bing.com/th/id/OIP.eXQ0EEAx4DBVW1qQh8Cd-wHaHa?pid=ImgDet&rs=1"  class="zoom"> </div> 
+        <div> <img src="https://blog.grabon.in/wp-content/uploads/2018/06/vaseline-men-antispot-whitening-face-cream.jpg"  class="zoom"></div>
+        <div> <img src="https://th.bing.com/th/id/OIP.AiDqNpIXj64zhUDtBNDFpgAAAA?pid=ImgDet&rs=1"  class="zoom"></div>
+    </div>
+    <div class="container">
+        <h1> Face Mask</h1>
+        <div><img src="https://images.vitaminimages.com/pp/VF/puritanspride/product_images/product_detail/009857.jpg" class="zoom"> </div> 
+        <div> <img src="https://th.bing.com/th/id/OIP.a-klPIk7LUtto8xtR4mhNgHaFN?pid=ImgDet&rs=1" class="zoom"></div>
+        <div> <img src="https://images-na.ssl-images-amazon.com/images/I/61WlNRfWKAL._SL1080_.jpg" class="zoom"></div>
+    </div>
+</body>
+</html>
