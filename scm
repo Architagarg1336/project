@@ -1,3 +1,0 @@
-hello scm
-anushka 
-apoorva
