@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+            float: left;
+            width: 50%;
+            }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+            }
+        .bg{
+            background-image:url('bg cosmetic.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0%;
+        }
+        .zoom {
+    padding:0;
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    }
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
+} 
+.container
+        {
+           height: auto; 
+           width: auto;
+           display: flex;
+          
+        }
+        .container div{
+            
+            height: 300px;
+            width: 350px;
+            margin: 50px;
+            padding: 4px;;
+            display: flex;
+            font-size: small;
+        } 
+.ff
+{           
+            width:98.5%;
+            height:300px;
+            padding:10px;
+            display: flex;
+            margin-top: 0%;
+            font-size: 40px;
+            color: black;
+            background-color:rgba(246, 167, 125, 0.772);
+}
+
+.slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      float: left;
+      justify-content: left;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .slideshow-image {
+      width: 400px;
+      height: 300px;
+    }
+    p
+    {
+      padding-top: 10px;
+      color: black;
+      font-size: 1cm;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="bg">
+	<div id="home">
+		<h1 style="color:aliceblue ; background-color:brown; font-size: 40px; margin: 0%;">
+			<center><b><i>Welcome To The World Of  MAKE-UP</i></b></center>
+		</h1>
+        <div class="ff"><pre><b> Upto 40% off only for today and get 10% 
+              cashback</b>
+        
+            <b> Buy now!!!</b></pre>
+            <div class="slideshow-container">
+                <div class="mySlides">
+                  <img class="slideshow-image" src="https://s14354.pcdn.co/wp-content/uploads/2019/08/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg" alt="Image 1">
+                </div>
+              
+                <div class="mySlides">
+                  <img class="slideshow-image" src="https://picturepolish.com.au/wp-content/uploads/2016/04/rose-nail-polish-by-picture-polish.png" alt="Image 2">
+                </div>
+              
+                <div class="mySlides">
+                  <img class="slideshow-image" src="https://i.pinimg.com/564x/17/c0/d5/17c0d5d74d0a032550238eb285a66540.jpg" alt="Image 3">
+                </div>
+                <div class="mySlides">
+                    <img class="slideshow-image" src="https://qph.fs.quoracdn.net/main-qimg-c53aeed2aa60f245b47e11a6b9fc9f0a" alt="Image 4">
+                  </div>
+                  <div class="mySlides">
+                    <img class="slideshow-image" src="https://i2.wp.com/studio3.com/wp-content/uploads/2015/04/Dior-makeup-brush-product-photography-studio-3.jpg" alt="Image 5">
+                  </div>
+                  <div class="mySlides">
+                    <img class="slideshow-image" src="https://tse2.mm.bing.net/th?id=OIP.dGpyz53UJFd19T0DMI55OQHaHa&pid=Api&P=0&h=180" alt="Image 6">
+                  </div>
+                  <div class="mySlides">
+                    <img class="slideshow-image" src="https://laurenandvanessa.com/wp-content/uploads/best-mac-blushes-review.jpg" alt="Image 7">
+                  </div>
+                  <div class="mySlides">
+                    <img class="slideshow-image" src="https://i.pinimg.com/564x/57/41/00/57410091cb824a5f8da29e09405ea223.jpg" alt="Image 8">
+                  </div>
+              </div>
+              
+              <script>
+                var slideIndex = 0;
+                showSlides();
+              
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                  }
+                  slides[slideIndex - 1].style.display = "block";
+                  setTimeout(showSlides, 2000); // Change slide every 2 seconds
+                }
+              </script>
+              
+        </div>
+	</div>
+	<div class="container">
+    <h1> Lipstick</h1>
+    <div><img src="https://netstorage-briefly.akamaized.net/images/904253bb0958a15a.jpg?imwidth=900" class="zoom"> </div> 
+    <div> <img src="https://i.pinimg.com/564x/cf/cd/5a/cfcd5a1b75b619374660be50a90c3534.jpg" class="zoom"></div>
+    <div> <img src="https://i.pinimg.com/564x/a7/1b/99/a71b997ea97fc55003640d9e7ebfd6d7.jpg"  class="zoom"></div>
+</div>
+<div class="container">
+    <h1> Blush</h1>&emsp;&emsp;&emsp;
+    <div><img src="https://i.pinimg.com/564x/34/1f/36/341f3679c157c65f77aa822bcbd4b477.jpg"  class="zoom"> </div> 
+    <div> <img src="https://i.pinimg.com/564x/61/0c/22/610c222d1b5745d90b5bbe6ea60a9349.jpg"  class="zoom"></div>
+    <div> <img src="https://i.pinimg.com/564x/6a/ee/ba/6aeeba84a02bcf0c45b767786c9b0070.jpg"  class="zoom"></div>
+</div>
+<div class="container">
+    <h1>eyeshadow</h1>
+    <div><img src="https://i.pinimg.com/564x/e2/7c/2b/e27c2b3c26794df28abf2e6565ac4b10.jpg"  class="zoom"> </div> 
+    <div> <img src="https://i.pinimg.com/564x/e7/e7/94/e7e794019a3f4c8e1c63f1cbbd055ad2.jpg" class="zoom"></div>
+    <div> <img src="https://i.pinimg.com/564x/37/3c/0b/373c0be1b2f102d930f3255b0fb55021.jpg" class="zoom"></div>
+</div>
+<div class="container">
+    <h1>Foundation</h1>
+    <div><img src="https://i.pinimg.com/564x/1c/e1/f5/1ce1f5dbe9e0bb827eba7a15655c63d6.jpg"  class="zoom"> </div> 
+    <div> <img src="https://i.pinimg.com/564x/15/9d/24/159d24fb89ddbf790a66fd0cd9a4a768.jpg"  class="zoom"></div>
+    <div> <img src="https://i.pinimg.com/564x/ff/ff/75/ffff7517e0177c3f237f2ea5ca2294d6.jpg"  class="zoom"></div>
+</div>
+<div class="container">
+    <h1>Nail Polish</h1>
+    <div><img src="https://i.pinimg.com/564x/e9/38/36/e93836e510ab80e701899800512fc3de.jpg" class="zoom"> </div> 
+    <div> <img src="https://i.pinimg.com/564x/0a/ee/5c/0aee5c63141c4e6a386dea802b515fb7.jpg" class="zoom"></div>
+    <div> <img src="https://i.pinimg.com/736x/43/df/23/43df230f10070d006320cbef4db7322c.jpg" class="zoom"></div>
+</div>
+</div>
+</body>
+</html>
+
